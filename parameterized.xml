@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="abc" >
+    <test name="ParameterizedTestDemo">
+        <parameter name="parameter1" value="This is parameter 1"></parameter>
+        <parameter name="parameter2" value="This is parameter 2"></parameter>
+        <classes>
+            <class name="com.group.parameterizedtest.ParameterizedTestDemo"></class>
+            <class name="com.group.parameterizedtest.DataProviderDemo"></class>
+        </classes>
+    </test>
+</suite>
